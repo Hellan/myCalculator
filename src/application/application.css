@@ -1,0 +1,22 @@
+
+
+.button {
+    -fx-text-fill: black;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.6) , 5.0, 0.0 , 0.0 , 1.0 );
+    -fx-font-size: 20.0px;
+    -fx-effect: dropshadow( gaussian , rgba(0.0,0.0,0.0,0.75) , 4.0,0.0,0.0,1.0 );
+    -fx-background-color: #87CEFA;   
+}
+
+
+.button:hover {
+    -fx-background-color: orange;
+}
+
+.grid{
+	 -fx-background-color: black;
+}
+
